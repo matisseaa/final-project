@@ -59,7 +59,7 @@ Clone the repository:
 
 
 ```bash
-git clone git@github.com:USERNAME/final-project.git
+git clone git@github.com:matisseaa/final-project.git
 cd final-project
 conda env create -f environment.yml
 conda activate numerical-workbench
