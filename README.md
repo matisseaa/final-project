@@ -83,8 +83,16 @@ python -m numerical_workbench.cli solve-root \
 ```
 
 Output:
-
-- Root ≈ 1.52138
+{
+  "solver_name": "newton",
+  "root": 1.5213797068045751,
+  "converged": true,
+  "iterations": 3,
+  "final_error": 4.529709940470639e-14,
+  "time_taken": 2.3125001462176442e-05,
+  "message": "limit reached"
+}
+Plot saved to: outputs/cli/newton_x3-x-2.png
 
 ![Function Plot](functionplot.png)
 
