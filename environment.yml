@@ -4,9 +4,9 @@ channels:
 
 dependencies:
   - python=3.12
-  - numpy
-  - matplotlib
-  - pytest
+  - numpy>=1.26
+  - matplotlib>=3.8
+  - pytest>=7
   - pip
   - pip:
-      - pyfiglet
+      - pyfiglet==1.0.2
