@@ -74,11 +74,13 @@ python -m numerical_workbench.cli solve-root \
   --expression "x^3 - x - 2" \
   --method newton \
   --interval 1:2
+```
 
-output:
-root ≈ 1.52138
+Output:
+
+- Root ≈ 1.52138
+
 ![Function Plot](outputs/functionplot.png)
-
 
 ## Testing
 pytest -v
