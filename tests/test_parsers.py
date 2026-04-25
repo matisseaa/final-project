@@ -1,13 +1,13 @@
 import pytest
 
-from src.parsers import (
+from numerical_workbench.parsers import (
     compile_expression,
     parse_polynomial,
     parse_interval_spec
 )
-from src.exceptions import ParseError, EvaluationError
-from src.functions import Polynomial
-from src.models import Interval
+from numerical_workbench.exceptions import ParseError, EvaluationError
+from numerical_workbench.functions import Polynomial
+from numerical_workbench.models import Interval
 
 
 # compile_expression tests

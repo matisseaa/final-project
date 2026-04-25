@@ -1,10 +1,10 @@
 import pytest
-from src.workflow import (
+from numerical_workbench.workflow import (
     demo_config,
     create_object_interval,
     run_full_report
 )
-from src.models import Interval, ReportArtifacts
+from numerical_workbench.models import Interval, ReportArtifacts
 
 # demo_config tests
 

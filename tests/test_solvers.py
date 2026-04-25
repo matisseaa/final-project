@@ -1,13 +1,13 @@
 import pytest
-from src.solvers import (
+from numerical_workbench.solvers import (
     BisectionSolver,
     NewtonSolver,
     SecantSolver,
     build_solver
 )
-from src.functions import Polynomial
-from src.models import Interval
-from src.exceptions import SolverError, ValidationError
+from numerical_workbench.functions import Polynomial
+from numerical_workbench.models import Interval
+from numerical_workbench.exceptions import SolverError, ValidationError
 
 # BisectionSolver tests
 

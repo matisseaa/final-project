@@ -1,12 +1,12 @@
 import pytest
-from src.methods_of_approx import (
+from numerical_workbench.methods_of_approx import (
     central_difference,
     trapezoidal_rule,
     simpson_rule
 )
-from src.functions import Polynomial
-from src.models import Interval
-from src.exceptions import ValidationError
+from numerical_workbench.functions import Polynomial
+from numerical_workbench.models import Interval
+from numerical_workbench.exceptions import ValidationError
 
 # central_difference tests
 

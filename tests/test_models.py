@@ -1,8 +1,8 @@
 import pytest
 from pathlib import Path
 
-from src.models import Interval, IterationRecord, RootResult, ReportArtifacts
-from src.exceptions import ValidationError
+from numerical_workbench.models import Interval, IterationRecord, RootResult, ReportArtifacts
+from numerical_workbench.exceptions import ValidationError
 
 # Interval tests
 

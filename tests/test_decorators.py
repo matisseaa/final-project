@@ -1,7 +1,7 @@
 import pytest
 import time
 
-from src.decorators import timed
+from numerical_workbench.decorators import timed
 
 # timed decorator tests
 

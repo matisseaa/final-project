@@ -1,6 +1,6 @@
 import pytest
 import sys
-from src.numerical_workbench.cli import turn_into_dictionary, main
+from numerical_workbench.cli import turn_into_dictionary, main
 
 # turn_into_dictionary tests
 
