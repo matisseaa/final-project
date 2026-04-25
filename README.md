@@ -1,4 +1,5 @@
-# final-project
+# Numerical Workbench
+A Python toolkit for numerical methods including root finding, integration, and function visualization.
 
 ## Description
 This project implements a numerical computation toolkit in Python using an object-oriented design.
@@ -43,8 +44,7 @@ final-project/
 │ ├── functions.py
 │ ├── solvers.py
 │ ├── plotting.py
-│ ├── workflow.py
-│ └── ...
+│ └──workflow.py
 │
 │── tests/
 │── README.md
