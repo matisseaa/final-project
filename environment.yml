@@ -1,0 +1,12 @@
+name: numerical-workbench
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+      - pyfiglet
