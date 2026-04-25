@@ -54,9 +54,15 @@ final-project/
 
 ---
 
-## Installation
+## Installation and how to run the code
+Clone the repository:
+
 
 ```bash
+git clone git@github.com:USERNAME/final-project.git
+cd final-project
+conda env create -f environment.yml
+conda activate numerical-workbench
 pip install -e .
 
 ---
