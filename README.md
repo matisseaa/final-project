@@ -80,7 +80,7 @@ Output:
 
 - Root ≈ 1.52138
 
-![Function Plot](outputs/functionplot.png)
+![Function Plot](functionplot.png)
 
 ## Testing
 pytest -v
