@@ -1,9 +1,9 @@
 import pytest
 import numpy as np
 
-from src.functions import MathFunction, Polynomial, ExpressionFunction
-from src.models import Interval
-from src.exceptions import EvaluationError
+from numerical_workbench.functions import MathFunction, Polynomial, ExpressionFunction
+from numerical_workbench.models import Interval
+from numerical_workbench.exceptions import EvaluationError
 
 
 # dummy class for testing MathFunction

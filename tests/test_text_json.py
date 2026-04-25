@@ -1,7 +1,7 @@
 import pytest
 from pathlib import Path
 
-from src.text_json import (
+from numerical_workbench.text_json import (
     ensure_directory,
     load_json,
     save_json,
@@ -9,8 +9,8 @@ from src.text_json import (
     save_text,
     build_function_from_spec
 )
-from src.exceptions import ConfigurationError
-from src.functions import Polynomial, ExpressionFunction
+from numerical_workbench.exceptions import ConfigurationError
+from numerical_workbench.functions import Polynomial, ExpressionFunction
 
 # ensure_directory tests
 

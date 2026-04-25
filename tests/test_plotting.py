@@ -1,9 +1,9 @@
 import pytest
 from pathlib import Path
 
-from src.plotting import plot_function, plot_convergence, errorplot
-from src.functions import Polynomial
-from src.models import Interval, RootResult, IterationRecord
+from numerical_workbench.plotting import plot_function, plot_convergence, errorplot
+from numerical_workbench.functions import Polynomial
+from numerical_workbench.models import Interval, RootResult, IterationRecord
 
 # plot_function tests
 
