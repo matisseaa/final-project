@@ -4,7 +4,7 @@ from .models import Interval, IterationRecord, ReportArtifacts, RootResult
 from .solvers import BisectionSolver, NewtonSolver, SecantSolver, build_solver
 from .workflow import demo_config, run_full_report
 
-__all__ = [#names we treat as official exports --> public API of package
+__all__ = [
     "BisectionSolver",
     "ExpressionFunction",
     "Interval",
