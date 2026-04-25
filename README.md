@@ -77,7 +77,7 @@ python -m numerical_workbench.cli solve-root \
 
 output:
 root ≈ 1.52138
-<img width="638" height="478" alt="Screenshot 2026-04-25 at 5 32 26 PM" src="https://github.com/user-attachments/assets/525927e6-3d5b-4db3-9cbb-eb43efe744f5" />
+![Function Plot](outputs/functionplot.png)
 
 
 ## Testing
