@@ -36,7 +36,7 @@ Run computations directly from terminal.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 final-project/
 │── src/
 │ └── numerical_workbench/
@@ -59,12 +59,12 @@ final-project/
 ```bash
 pip install -e .
 
-## USAGE
+## Usage
 python -m numerical_workbench.cli solve-root \
   --function-kind polynomial \
   --expression "x^3 - x - 2" \
   --method newton \
   --interval 1:2
 
-## TESTING
+## Testing
 pytest -v
